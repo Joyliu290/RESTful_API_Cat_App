@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:text="Press for Cats"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="116dp"
+                android:layout_marginStart="116dp"
+                android:onClick="clickMeClick"
+                android:id="@+id/pressMe"
+                android:textColorLink="#ffffff" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:id="@+id/catPhoto"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="200dp"
+                android:id="@+id/catPhoto2"
+                android:layout_weight="1" />
+
+            <GridLayout
+                android:id="@+id/grid"
+                android:rowCount="3"
+                android:columnCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
