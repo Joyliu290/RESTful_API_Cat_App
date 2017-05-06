@@ -29,7 +29,5 @@ dependencies {
     compile 'com.koushikdutta.ion:ion:2.+'
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.8.0'
-    compile files('libs/gson-2.8.0.jar')
-    compile files ('libs/java-json.jar')
-    compile 'io.github.endreman0:java-json:0.13.0'
+    compile files('libs/stanford-android-lib.jar')
 }

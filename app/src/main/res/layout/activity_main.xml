@@ -30,10 +30,10 @@
                 android:textColorLink="#ffffff" />
 
             <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="0dp"
-                    android:id="@+id/catPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:id="@+id/catPhoto"
                 android:layout_weight="1" />
 
             <ImageView
